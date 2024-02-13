@@ -7,7 +7,11 @@
     height: 5vh;
     width: 90vh;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+    background-color: antiquewhite;
     /*align-items: center;
     flex-wrap: wrap;
     align-content: flex-start;*/
@@ -19,7 +23,11 @@
     height: 20vh;
     width: 90vh;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+    background-color: antiquewhite;
 }
 
 .flexbox3{
@@ -30,15 +38,28 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: antiquewhite;
 }
 .flexbox4{
+    display: flex;
+    border: 1px solid black;
+    height: 5vh;
+    width: 90vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.flexbox5{
     display: flex;
     border: 1px solid black;
     height: 20vh;
     width: 90vh;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    background-color: antiquewhite;
 }
 
 .item{
@@ -48,10 +69,28 @@
     width: 100px;
 }
 
-#logo {
-    align-self: flex-start;
+#header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
 }
 
-#navBar{
-    align-self: flex-start;
+
+
+.project {
+    margin: 1px;
+    height:15vh;
+    width: 20vh;
+    background-color: azure;
 }
+
+.textName{
+    margin: 10px;
+    width: 45vh;
+}
+
+.textContent{
+    margin: 10px;
+    width: 45vh;
+}
+
