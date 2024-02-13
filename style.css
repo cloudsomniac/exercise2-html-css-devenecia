@@ -5,46 +5,45 @@
     display: flex;
     border: 1px solid black;
     height: 5vh;
-    width: 90vh;
+    width: 120vh;
     flex-direction: row;
     justify-content: space-around;
     align-self: center;
     align-items: center;
     background-color: antiquewhite;
-    /*align-items: center;
-    flex-wrap: wrap;
-    align-content: flex-start;*/
 }
 
 .flexbox2{
     display: flex;
     border: 1px solid black;
-    height: 20vh;
-    width: 90vh;
+    height: 40vh;
+    width: 120vh;
     flex-direction: row;
-    justify-content: space-around;
-    align-self: center;
+    justify-content: center;
+    /*align-self: center;*/
     align-items: center;
-    background-color: antiquewhite;
+    background-image: url("background.jpg");
 }
 
 .flexbox3{
     display: flex;
     border: 1px solid black;
     height: 20vh;
-    width: 90vh;
+    width: 120vh;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    /*align-self: center;*/
     align-items: center;
-    background-color: antiquewhite;
+    background-color: white;
 }
+
 .flexbox4{
     display: flex;
     border: 1px solid black;
     height: 5vh;
-    width: 90vh;
+    width: 120vh;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background-color: antiquewhite;
 }
@@ -52,44 +51,56 @@
 .flexbox5{
     display: flex;
     border: 1px solid black;
-    height: 15vh;
-    width: 90vh;
+    height: 20vw;
+    width: 120vh;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+.flexbox6{
+    display: flex;
+    border: 1px solid black;
+    height: 5vh;
+    width: 120vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: antiquewhite;
 }
 
-.item{
-    margin: 3px;
-    /*background-color: lightblue;*/
-    height: 100px;
-    width: 100px;
+.flexbox7{
+    display: flex;
+    border: 1px solid black;
+    height: 15vh;
+    width: 120vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
 }
 
 #header {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     font-weight: bold;
+    font-size: large;
 }
 
 .project {
     margin: 1px;
-    height:15vh;
-    width: 20vh;
-    background-color: azure;
 }
 
-.textName{
-    margin: 10px;
-    width: 45vh;
+.text{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 3vh;
 }
 
-.textContent{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+img.featPhoto {
+    border-radius: 50%;
+}
+
+#autoBio{
     margin: 10px;
-    width: 45vh;
-    background-color: azure;
+    font-size: small;
 }
-
