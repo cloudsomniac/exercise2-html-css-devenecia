@@ -2,6 +2,6 @@
 
 Full Name: De Venecia, Jem M.
 Degree Program: BS Computer Science
-Live Website link:https://cloudsomniac.github.io/exercise2-html-css-devenecia/
+Live Website link: https://cloudsomniac.github.io/exercise2-html-css-devenecia/
 
 My key takeaway from this exercise is that I relearned how to create a webpage using HTML and CSS and how to use a flexbox.
